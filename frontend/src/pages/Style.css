@@ -1,0 +1,143 @@
+/* Общие стили */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: black;
+  }
+  
+  /* Заголовки */
+  header {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1, h3 {
+    margin: 0;
+  }
+  
+  /* Формы */
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  input[type="text"],
+  input[type="password"],
+  input[type="email"] {
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+  }
+  
+  button {
+    padding: 10px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: darkred;
+  }
+  
+  /* Ссылки */
+  a {
+    color: red;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Главная страница */
+  .home-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
+  
+  .home-page header {
+    background-color: black;
+  }
+  
+  .home-page form {
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Список машин */
+  .car-list-page {
+    padding: 20px;
+  }
+  
+  .car-list-page input[type="text"] {
+    width: 300px;
+  }
+  
+  .car-list-page label {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  .car-list-page label input {
+    margin: 0;
+  }
+  
+  .car-list-page div {
+    margin-bottom: 20px;
+  }
+  
+  .car-list-page .car-item {
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .car-list-page .car-item a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  
+  .car-list-page .car-item a:hover {
+    background-color: darkred;
+  }
+  
+  /* Детальная страница машины */
+  .car-detail-page {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .car-detail-page img {
+    width: 80%;
+    max-width: 600px;
+    height: auto;
+    border: 1px solid black;
+    border-radius: 5px;
+  }
+  
+  .car-detail-page p {
+    max-width: 600px;
+    margin: 20px auto;
+    text-align: justify;
+  }
+  

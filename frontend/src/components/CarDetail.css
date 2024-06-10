@@ -1,0 +1,20 @@
+.car-detail {
+    color: black;
+    background-color: white;
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.donor-card, .part-card {
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+    background-color: #f9f9f9;
+}
+
+.carousel .slide {
+    background: none;
+}
